@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV de Sofiane Talbi - Spark Media">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV Sofiane TALBI - Spark Media</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="header-flex">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="logo-area-left">
+                <a href="index.html" class="logo-container">
+                    <img src="image/logo2.png" alt="Spark Media" class="logo">
+                    <span class="logo-text">Spark Media</span>
+                </a>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="index.html">Accueil</a>
+                <a href="a_propos.html">Équipe</a>
+                <a href="service.html">Services</a>
+                <a href="offres.html">Offres</a>
+                <a href="contact.html">Contact</a>
+                <a href="recrutement.html">Recrutement</a>
+            </nav>
+            
+            <div class="nav-right">
+                <div class="search-container">
+                    <form class="search-box" onsubmit="return false;">
+                        <input type="search" class="search-input" placeholder="Rechercher..." name="q" aria-label="Rechercher" autocomplete="off">
+                        <button type="button" class="search-btn" aria-label="Lancer la recherche">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="search-results"></div>
+                </div>
+                
+                <button id="eco-toggle" class="btn-eco" title="Mode Éco-responsable">
+                    <i class="fas fa-moon"></i> <span>Night Mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="side-menu-overlay"></div>
+    <aside class="side-menu">
+        <button id="eco-toggle-mobile" class="btn-eco" title="Mode Éco-responsable">
+            <i class="fas fa-moon"></i> <span>Night Mode</span>
+        </button>
+        
+        <nav class="nav-menu">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Accueil
+            </a>
+            <a href="a_propos.html">
+                <i class="fas fa-users"></i> Équipe
+            </a>
+            <a href="service.html">
+                <i class="fas fa-cogs"></i> Services
+            </a>
+            <a href="offres.html">
+                <i class="fas fa-tags"></i> Offres
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+            <a href="recrutement.html">
+                <i class="fas fa-briefcase"></i> Recrutement
+            </a>
+        </nav>
+    </aside>
+
+    <main class="container">
+        <div class="cv-action-buttons no-print">
+            <a href="a_propos.html" class="btn-back-cv">
+                <i class="fas fa-arrow-left"></i> Retour à l'équipe
+            </a>
+            <button onclick="window.print()" class="btn-print-cv">
+                <i class="fas fa-print"></i> Imprimer en PDF
+            </button>
+        </div>
+
+        <div class="cv-container">
+            <aside class="cv-sidebar">
+                <div class="cv-photo">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                
+                <h3><i class="fas fa-address-card"></i> Contact</h3>
+                <p><i class="fas fa-phone"></i> 06 52 31 86 81</p>
+                <p><i class="fas fa-envelope"></i> sofiane.talbi@edu.univ-eiffel.fr</p>
+                <p><i class="fas fa-map-marker-alt"></i> 89 T Rue Franklin Roosevelt<br>91480 Quincy-sous-Sénart</p>
+                
+                <h3><i class="fas fa-language"></i> Langues</h3>
+                <p><strong>Français :</strong> Maternel</p>
+                <p><strong>Anglais :</strong> Bon niveau</p>
+                <p><strong>Espagnol :</strong> Asser bon niveau</p>
+                
+                <h3><i class="fas fa-code"></i> Compétences</h3>
+                <p>Programmation :</p>
+                <p>• C (C89)</p>
+                <p>• Python 3</p>
+                <p>Developpement :</p>
+                <p>• HTML5 / CSS3</p>
+                <p>Base de données :</p>
+                <p>• Manipulation et modélisation de données avec SQl -Oracle</p>
+                <p>Autre :</p>
+                <p>• Git / GitHub</p>
+                
+                <h3><i class="fas fa-star"></i> Intérêts</h3>
+                <p>• Basket-ball (3 ans)</p>
+                <p>• Échecs</p>
+            </aside>
+            
+            <section class="cv-main">
+                <header class="cv-header">
+                    <h1>Sofiane TALBI</h1>
+                    <p class="cv-title">ÉTUDIANT EN BUT 1 INFORMATIQUE</p>
+                </header>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-user"></i> Profil</h2>
+                    <p>Étudiant en informatique motivé, sérieux et autonome. Actuellement en CDI le week-end et engagé bénévolement en tant qu'assistant coach de basket-ball.</p>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-graduation-cap"></i> Formation</h2>
+                    <div class="cv-item">
+                        <span class="cv-date">2025 - 2026</span>
+                        <strong>BUT Informatique</strong> - IUT Sénart-Fontainebleau<br>
+                        Parcours Réalisation d'applications
+                    </div>
+                    <div class="cv-item">
+                        <span class="cv-date">2025</span>
+                        <strong>Baccalauréat Général</strong> - Mention Assez Bien<br>
+                        Spécialités : Mathématiques et NSI
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-briefcase"></i> Expérience</h2>
+                    <div class="cv-item">
+                        <span class="cv-date">2023</span>
+                        <strong>Employé polyvalent</strong> - Grande distribution
+                        <p>• Travail en équipe</p>
+                        <p>• Mise en rayon des articles</p>
+                        <p>• Inventaire et gestion du stock</p>
+                    </div>
+                    <div class="cv-item">
+                        <span class="cv-date">2022</span>
+                        <strong>Assistant coach</strong> - Club de basket-ball
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-project-diagram"></i> Projets</h2>
+                    <div class="cv-item">
+                        <strong>Jeu de Taquin en C :</strong> Développement complet avec interface optimisée.
+                    <p>• la mise en pratique des connaissances en programmation en langages C</p>
+                    <p>• Travail en équipe</p>
+                    </div>
+                    <div class="cv-item">
+                        <strong>Machine virtuelle Dual Boot :</strong> VM avec Arch Linux et Windows 7.
+                        <p>• Création d'une machine virtuelle en dual boot </p>
+                    </div>
+                    <div class="cv-item">
+                        <strong>Spark Media :</strong> Identité visuelle et charte graphique avec accessibilité.
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-star"></i> Qualités</h2>
+                    <p>Créatif • Organisé • Autonome • Esprit d'équipe • Polyvalent • Engagé</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <a href="#" class="scroll-top no-print">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <h3>Plan du site</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="a_propos.html"><i class="fas fa-users"></i> Équipe</a></li>
+                    <li><a href="service.html"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="offres.html"><i class="fas fa-tags"></i> Offres</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="recrutement.html"><i class="fas fa-briefcase"></i> Recrutement</a></li>
+                    <li><a href="mentionlegale.html"><i class="fas fa-gavel"></i> Mentions légales</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-sae">
+                <h4>Projet SAE</h4>
+                <p><strong>Créé par :</strong> D. Moustaev, M. Ouissi, S. Talbi</p>
+                <p><strong>Date :</strong> Janvier 2026</p>
+                <p><strong>Formation :</strong> BUT Informatique - 1ère année</p>
+                <p><strong>IUT :</strong> Sénart-Fontainebleau</p>
+                
+                <a href="https://www.iutsf.u-pec.fr/" target="_blank" rel="noopener noreferrer" class="logo-iut-footer">
+                    <img src="image/logo_iut.png" alt="Logo IUT Sénart-Fontainebleau" class="footer-logo-iut">
+                </a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sparkmediaiut/" aria-label="Instagram" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/SparkMediaIUT" aria-label="Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/spark-media-undefined-1170493a6" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section footer-logo-section">
+                <a href="index.html" class="spark-logo-footer">
+                    <img src="image/logo2.png" alt="Spark Media" class="footer-logo-spark">
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Spark Media - Tous droits réservés - Projet fictif à but pédagogique</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

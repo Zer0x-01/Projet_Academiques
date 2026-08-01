@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos services de gestion des réseaux sociaux pour TPE, PME et startups">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spark Media - Nos Services</title>
+</head>
+<body class="preload">
+    <header class="navbar">
+        <div class="header-flex">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="logo-area-left">
+                <a href="index.html" class="logo-container">
+                    <img src="image/logo2.png" alt="Spark Media" class="logo">
+                    <span class="logo-text">Spark Media</span>
+                </a>
+            </div>
+
+            <nav class="nav-menu">
+                <a href="index.html">Accueil</a>
+                <a href="a_propos.html">Équipe</a>
+                <a href="service.html" class="active">Services</a>
+                <a href="offres.html">Offres</a>
+                <a href="contact.html">Contact</a>
+                <a href="recrutement.html">Recrutement</a>
+            </nav>
+
+            <div class="nav-right">
+                <div class="search-container">
+                    <form class="search-box" onsubmit="return false;">
+                        <input type="search" class="search-input" placeholder="Rechercher..." name="q" aria-label="Rechercher" autocomplete="off">
+                        <button type="button" class="search-btn" aria-label="Lancer la recherche">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="search-results"></div>
+                </div>
+
+                <button id="eco-toggle" class="btn-eco" title="Mode Éco-responsable">
+                    <i class="fas fa-moon"></i> <span>Night Mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="side-menu-overlay"></div>
+    <aside class="side-menu">
+        <button id="eco-toggle-mobile" class="btn-eco" title="Mode Éco-responsable">
+            <i class="fas fa-moon"></i> <span>Night Mode</span>
+        </button>
+
+        <nav class="nav-menu">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Accueil
+            </a>
+            <a href="a_propos.html">
+                <i class="fas fa-users"></i> Équipe
+            </a>
+            <a href="service.html" class="active">
+                <i class="fas fa-cogs"></i> Services
+            </a>
+            <a href="offres.html">
+                <i class="fas fa-tags"></i> Offres
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+            <a href="recrutement.html">
+                <i class="fas fa-briefcase"></i> Recrutement
+            </a>
+        </nav>
+    </aside>
+
+    <main class="container">
+        <h1 class="page-title">
+            <i class="fas fa-cogs"></i>
+            Nos Services
+        </h1>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-briefcase"></i>
+            </div>
+            <h2>Notre Service : Gestion Complète des Réseaux Sociaux</h2>
+            <p>Spark Media est une agence spécialisée dans la <strong>gestion professionnelle des réseaux sociaux</strong> pour les entreprises B2B. Notre mission est simple : vous permettre de vous concentrer sur votre cœur de métier pendant que nous développons votre présence digitale.</p>
+            <p>Nous proposons un <strong>service clé en main</strong> qui couvre l'intégralité de votre communication sur les réseaux sociaux, de la stratégie initiale jusqu'au reporting détaillé des performances.</p>
+        </section>
+
+        <h2 class="section-title">
+            <i class="fas fa-list-check"></i>
+            Nos 4 Piliers de Service
+        </h2>
+        <div class="services-grid">
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-palette"></i>
+                    <div class="click-indicator">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <h3>Création de Contenu</h3>
+                <div class="dropdown-content">
+                    <p>Nous créons du contenu original et percutant adapté à chaque plateforme : <strong>Instagram, X (Twitter), LinkedIn</strong>.</p>
+                    <p>Nos créations incluent des visuels professionnels, des vidéos courtes engageantes, des infographies et des textes optimisés pour capter l'attention de votre audience cible.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-calendar-alt"></i>
+                    <div class="click-indicator">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <h3>Planification & Publication</h3>
+                <div class="dropdown-content">
+                    <p>Nous planifions et publions régulièrement votre contenu selon une stratégie éditoriale définie avec vous.</p>
+                    <p>Grâce à nos outils professionnels (Hootsuite, Buffer), nous assurons une présence active et constante de votre entreprise sur tous vos réseaux sociaux.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-bullhorn"></i>
+                    <div class="click-indicator">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <h3>Gestion Publicitaire (Ads)</h3>
+                <div class="dropdown-content">
+                    <p>Nous créons et optimisons vos campagnes publicitaires sur <strong>Meta Ads, LinkedIn Ads et Google Ads</strong> pour maximiser votre retour sur investissement.</p>
+                    <p>Notre expertise en ciblage d'audience et en A/B testing garantit que chaque euro dépensé génère des résultats concrets et mesurables.</p>
+                </div>
+            </div>
+
+            <div class="service-item">
+                <div class="service-icon">
+                    <i class="fas fa-chart-line"></i>
+                    <div class="click-indicator">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                </div>
+                <h3>Reporting & Analyse</h3>
+                <div class="dropdown-content">
+                    <p>Nous vous fournissons des rapports détaillés sur les performances de vos réseaux sociaux : statistiques d'engagement, conversions, croissance de votre audience.</p>
+                    <p>Ces analyses nous permettent d'ajuster continuellement la stratégie pour améliorer vos résultats mois après mois.</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-star"></i>
+            </div>
+            <h2>Fonctionnalités et Avantages</h2>
+
+            <div class="features-list">
+                <div class="feature-item">
+                    <i class="fas fa-rocket"></i>
+                    <div>
+                        <h3>Service Clé en Main</h3>
+                        <p>Contrairement à un freelance isolé ou à un recrutement interne coûteux, vous bénéficiez d'une équipe complète et polyvalente (graphistes, vidéastes, rédacteurs, experts Ads) pour un coût maîtrisé et sans les contraintes d'un salarié.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-users"></i>
+                    <div>
+                        <h3>Expertise Complète</h3>
+                        <p>Notre équipe combine plusieurs compétences : création graphique (Canva Pro, Adobe Suite), montage vidéo, rédaction web SEO, gestion publicitaire et analyse de données. Vous profitez de toute cette expertise pour le prix d'un seul forfait.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-clock"></i>
+                    <div>
+                        <h3>Gain de Temps Considérable</h3>
+                        <p>Nous prenons en charge 100% de votre communication digitale. Vous n'avez plus à vous soucier de créer du contenu, de programmer des publications ou de suivre vos statistiques. Concentrez-vous sur votre activité principale.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <h2 class="section-title">
+            <i class="fas fa-network-wired"></i>
+            Nos Partenaires Technologiques
+        </h2>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <h2>Les plateformes et outils avec lesquels nous travaillons</h2>
+            <p>Pour garantir la qualité de nos services, nous collaborons avec les meilleures plateformes et utilisons les outils les plus performants du marché.</p>
+            
+            <div class="partners-grid">
+                <div class="partner-card">
+                    <div class="partner-icon">
+                        <i class="fab fa-meta"></i>
+                    </div>
+                    <h3>Meta Business Suite</h3>
+                    <p>Gestion complète de Facebook et Instagram, création et optimisation des campagnes publicitaires Meta Ads.</p>
+                </div>
+
+                <div class="partner-card">
+                    <div class="partner-icon">
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                    <h3>LinkedIn Marketing</h3>
+                    <p>Stratégie B2B, création de contenu professionnel et gestion des campagnes LinkedIn Ads pour générer des leads qualifiés.</p>
+                </div>
+
+                <div class="partner-card">
+                    <div class="partner-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h3>TikTok Business</h3>
+                    <p>Création de contenus viraux, stratégie de croissance et gestion des campagnes publicitaires TikTok Ads.</p>
+                </div>
+
+                <div class="partner-card">
+                    <div class="partner-icon">
+                        <i class="fab fa-google"></i>
+                    </div>
+                    <h3>Google Ads & Analytics</h3>
+                    <p>Campagnes de référencement payant (SEA) et analyse approfondie des performances avec Google Analytics.</p>
+                </div>
+
+                <div class="partner-card">
+                    <div class="partner-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Hootsuite & Buffer</h3>
+                    <p>Planification et programmation de vos publications sur tous vos réseaux sociaux pour une présence constante.</p>
+                </div>
+
+                <div class="partner-card">
+                    <div class="partner-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Canva Pro & Adobe Suite</h3>
+                    <p>Création graphique professionnelle avec les meilleurs outils de design pour des visuels impactants.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-card card-animate" style="background: linear-gradient(135deg, rgba(255,107,53,0.1), rgba(247,147,30,0.1)); border-left: none;">
+            <h2 style="text-align: center; color: var(--primary-color);">Nos résultats en chiffres</h2>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">+60%</div>
+                    <p class="stat-label">Augmentation moyenne de l'engagement</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <p class="stat-label">Clients accompagnés</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <p class="stat-label">Taux de satisfaction client</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <p class="stat-label">Contenus créés par mois</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-gem"></i>
+            </div>
+            <h2>Notre Valeur Ajoutée par Rapport à la Concurrence</h2>
+
+            <div class="features-list">
+                <div class="feature-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <div>
+                        <h3>Innovation Créative</h3>
+                        <p>Contrairement aux grandes agences qui recyclent les mêmes modèles pour tous leurs clients, nous créons du contenu 100% original et personnalisé. Chaque entreprise est unique, votre communication aussi.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-handshake"></i>
+                    <div>
+                        <h3>Proximité et Partenariat</h3>
+                        <p>Nous ne sommes pas qu'un prestataire, nous devenons votre partenaire digital. Écoute active, disponibilité et réactivité : vous avez un interlocuteur dédié qui connaît votre entreprise par cœur.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-bar"></i>
+                    <div>
+                        <h3>Exigence de Performance</h3>
+                        <p>Nous sommes obsédés par les résultats. Chaque campagne est suivie, analysée et optimisée en temps réel. Notre objectif : vous garantir un retour sur investissement mesurable et concret.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-bolt"></i>
+                    <div>
+                        <h3>Réactivité et Veille Stratégique</h3>
+                        <p>Le digital évolue vite. Nous assurons une veille continue sur les tendances, les nouveaux algorithmes et les nouvelles fonctionnalités pour que votre stratégie reste toujours en avance sur la concurrence.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="offres.html" class="btn-spark">
+                    <span>Découvrir nos forfaits détaillés</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <a href="#" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <h3>Plan du site</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="a_propos.html"><i class="fas fa-users"></i> Équipe</a></li>
+                    <li><a href="service.html"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="offres.html"><i class="fas fa-tags"></i> Offres</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="recrutement.html"><i class="fas fa-briefcase"></i> Recrutement</a></li>
+                    <li><a href="mentionlegale.html"><i class="fas fa-gavel"></i> Mentions légales</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-sae">
+                <h4>Projet SAE</h4>
+                <p><strong>Créé par :</strong> D. Moustaev, M. Ouissi, S. Talbi</p>
+                <p><strong>Date :</strong> Janvier 2026</p>
+                <p><strong>Formation :</strong> BUT Informatique - 1ère année</p>
+                <p><strong>IUT :</strong> Sénart-Fontainebleau</p>
+
+                <a href="https://www.iutsf.u-pec.fr/" target="_blank" rel="noopener noreferrer" class="logo-iut-footer">
+                    <img src="image/logo_iut.png" alt="Logo IUT Sénart-Fontainebleau" class="footer-logo-iut">
+                </a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sparkmediaiut/" aria-label="Instagram" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/SparkMediaIUT" aria-label="Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/spark-media-undefined-1170493a6" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section footer-logo-section">
+                <a href="index.html" class="spark-logo-footer">
+                    <img src="image/logo2.png" alt="Spark Media" class="footer-logo-spark">
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Spark Media - Tous droits réservés - Projet fictif à but pédagogique</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        window.addEventListener('load', () => document.body.classList.remove('preload'));
+    </script>
+</body>
+</html>

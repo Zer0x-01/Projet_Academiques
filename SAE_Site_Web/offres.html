@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos offres et tarifs adaptés à tous les budgets : Starter, Business et Premium">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spark Media - Nos Offres</title>
+</head>
+<body class="preload">
+    <header class="navbar">
+        <div class="header-flex">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="logo-area-left">
+                <a href="index.html" class="logo-container">
+                    <img src="image/logo2.png" alt="Spark Media" class="logo">
+                    <span class="logo-text">Spark Media</span>
+                </a>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="index.html">Accueil</a>
+                <a href="a_propos.html">Équipe</a>
+                <a href="service.html">Services</a>
+                <a href="offres.html" class="active">Offres</a>
+                <a href="contact.html">Contact</a>
+                <a href="recrutement.html">Recrutement</a>
+            </nav>
+            
+            <div class="nav-right">
+                <div class="search-container">
+                    <form class="search-box" onsubmit="return false;">
+                        <input type="search" class="search-input" placeholder="Rechercher..." name="q" aria-label="Rechercher" autocomplete="off">
+                        <button type="button" class="search-btn" aria-label="Lancer la recherche">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="search-results"></div>
+                </div>
+                
+                <button id="eco-toggle" class="btn-eco" title="Mode Éco-responsable">
+                    <i class="fas fa-moon"></i> <span>Mode éco</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="side-menu-overlay"></div>
+    <aside class="side-menu">
+        <button id="eco-toggle-mobile" class="btn-eco" title="Mode Éco-responsable">
+            <i class="fas fa-moon"></i> <span>Night Mode</span>
+        </button>
+        
+        <nav class="nav-menu">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Accueil
+            </a>
+            <a href="a_propos.html">
+                <i class="fas fa-users"></i> Équipe
+            </a>
+            <a href="service.html">
+                <i class="fas fa-cogs"></i> Services
+            </a>
+            <a href="offres.html" class="active">
+                <i class="fas fa-tags"></i> Offres
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+            <a href="recrutement.html">
+                <i class="fas fa-briefcase"></i> Recrutement
+            </a>
+        </nav>
+    </aside>
+
+    <main class="container">
+        <h1 class="page-title">
+            <i class="fas fa-tags"></i>
+            Nos Offres Tarifaires
+        </h1>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-table"></i>
+            </div>
+            <h2>Nos Trois Forfaits : Comparatif Détaillé</h2>
+            <p>Tous nos forfaits incluent : création de contenu original, publication programmée, community management, reporting mensuel et support client dédié.</p>
+            
+            <table class="offres-table">
+                <thead>
+                    <tr>
+                        <th>Prestations incluses</th>
+                        <th>Starter<br><small>Pour débuter</small></th>
+                        <th>Business<br><small>Le plus choisi</small></th>
+                        <th>Premium<br><small>Performance maximale</small></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Tarif mensuel HT</strong></td>
+                        <td><strong>1 800 €</strong></td>
+                        <td><strong>2 500 €</strong></td>
+                        <td><strong>3 500 €</strong></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Publications (posts)</strong></td>
+                        <td>12 posts / mois<br><small>(3 par semaine)</small></td>
+                        <td>20 posts / mois<br><small>(5 par semaine)</small></td>
+                        <td>30 posts / mois<br><small>(1 par jour + week-end)</small></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Réseaux sociaux gérés</strong></td>
+                        <td>2 réseaux au choix</td>
+                        <td>3 réseaux au choix</td>
+                        <td>5 réseaux (tous)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Vidéos courtes (Reels/TikTok)</strong></td>
+                        <td>2 vidéos / mois</td>
+                        <td>4 vidéos / mois</td>
+                        <td>6 vidéos / mois<br><small>+ montage professionnel</small></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stories Instagram</strong></td>
+                        <td>8 stories / mois</td>
+                        <td>15 stories / mois</td>
+                        <td>25 stories / mois</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Animation communauté</strong></td>
+                        <td>Modération basique<br><small>(réponse aux commentaires)</small></td>
+                        <td>Réponse sous 24h<br><small>(commentaires + messages)</small></td>
+                        <td>Réponse sous 6h<br><small>(support réactif)</small></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Reporting performances</strong></td>
+                        <td>Mensuel<br><small>(analyses de base)</small></td>
+                        <td>Bimensuel<br><small>(analyses détaillées)</small></td>
+                        <td>Hebdomadaire<br><small>(analyses avancées + recommandations)</small></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gestion publicité (Ads)</strong></td>
+                        <td>Non inclus</td>
+                        <td>✓ Inclus<br><small>(création + gestion campagnes)</small></td>
+                        <td>✓ Inclus + Optimisation IA<br><small>(A/B testing avancé)</small></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Stratégie digitale</strong></td>
+                        <td>Conseil ponctuel</td>
+                        <td>Stratégie trimestrielle<br><small>(ajustements réguliers)</small></td>
+                        <td>Stratégie complète mensuelle<br><small>(audit + optimisation continue)</small></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <p style="margin-top: 1.5rem; font-size: 0.9rem; color: #666;"><strong>Note :</strong> Tous nos tarifs sont HT (Hors Taxes). Engagement flexible sans durée minimale imposée (préavis d'un mois). Les forfaits sont modulables selon vos besoins spécifiques.</p>
+        </section>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h2>Prestations À La Carte</h2>
+            <p>Vous préférez des prestations ponctuelles ? Nous proposons également des services à l'unité :</p>
+            
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Vidéo professionnelle</h3>
+                    <p><strong>500 € - 1 500 €</strong></p>
+                    <p>Selon la durée et la complexité du montage</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>Audit digital complet</h3>
+                    <p><strong>800 €</strong></p>
+                    <p>Analyse complète de votre présence en ligne avec recommandations</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Site vitrine</h3>
+                    <p><strong>2 500 € - 5 000 €</strong></p>
+                    <p>Site responsive avec 5 à 10 pages, optimisé SEO</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Identité visuelle</h3>
+                    <p><strong>1 200 €</strong></p>
+                    <p>Logo, charte graphique complète et déclinaisons</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <h3>Shooting photo</h3>
+                    <p><strong>600 €</strong></p>
+                    <p>Demi-journée avec 20 photos retouchées</p>
+                </div>
+                
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3>Rédaction web</h3>
+                    <p><strong>150 € / article</strong></p>
+                    <p>Article optimisé SEO de 800 à 1 200 mots</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="content-card card-animate">
+            <div class="card-icon">
+                <i class="fas fa-ad"></i>
+            </div>
+            <h2>Gestion Publicitaire (Meta Ads, LinkedIn, Google)</h2>
+            <p>La gestion publicitaire fonctionne différemment de nos forfaits mensuels. Voici comment cela se passe concrètement :</p>
+            
+            <div class="features-list">
+                <div class="feature-item">
+                    <i class="fas fa-credit-card"></i>
+                    <div>
+                        <h3>Budget publicitaire</h3>
+                        <p>Vous payez directement votre budget publicitaire aux plateformes (Meta, Google, LinkedIn). Nous vous conseillons un <strong>budget minimum de 500 € par mois</strong> pour obtenir des résultats significatifs et permettre aux algorithmes des plateformes d'optimiser vos campagnes efficacement.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-percent"></i>
+                    <div>
+                        <h3>Frais de gestion Spark Media</h3>
+                        <p>Nous facturons <strong>15% à 20%</strong> de votre budget publicitaire pour la conception, le ciblage, l'optimisation et le suivi de vos campagnes.</p>
+                        <p><strong>Exemple concret :</strong> Si vous investissez 1 000 € en publicité sur Meta Ads, vous nous payez entre 150 € et 200 € pour gérer cette campagne de A à Z. Vous payez donc au total entre 1 150 € et 1 200 € (1 000 € à Meta + 150-200 € à Spark Media).</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-chart-line"></i>
+                    <div>
+                        <h3>Ce qui est inclus</h3>
+                        <p>Création des visuels publicitaires, rédaction des textes accrocheurs, ciblage d'audience avancé (démographique, centres d'intérêt, comportements), A/B testing systématique, optimisation quotidienne des performances et reporting détaillé avec analyse du ROI (retour sur investissement).</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-bullseye"></i>
+                    <div>
+                        <h3>Notre engagement résultat</h3>
+                        <p>Notre objectif est de vous garantir un retour sur investissement optimal. Nous suivons en temps réel les performances de vos campagnes (coût par clic, taux de conversion, coût par acquisition) et ajustons les paramètres pour maximiser vos résultats.</p>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+            <a href="contact.html" class="btn-spark">
+                <span>Prêt à passer à la vitesse supérieure?</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+        </section>
+    </main>
+
+    <a href="#" class="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <h3>Plan du site</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="a_propos.html"><i class="fas fa-users"></i> Équipe</a></li>
+                    <li><a href="service.html"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="offres.html"><i class="fas fa-tags"></i> Offres</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="recrutement.html"><i class="fas fa-briefcase"></i> Recrutement</a></li>
+                    <li><a href="mentionlegale.html"><i class="fas fa-gavel"></i> Mentions légales</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-sae">
+                <h4>Projet SAE</h4>
+                <p><strong>Créé par :</strong> D. Moustaev, M. Ouissi, S. Talbi</p>
+                <p><strong>Date :</strong> Janvier 2026</p>
+                <p><strong>Formation :</strong> BUT Informatique - 1ère année</p>
+                <p><strong>IUT :</strong> Sénart-Fontainebleau</p>
+                
+                <a href="https://www.iutsf.u-pec.fr/" target="_blank" rel="noopener noreferrer" class="logo-iut-footer">
+                    <img src="image/logo_iut.png" alt="Logo IUT Sénart-Fontainebleau" class="footer-logo-iut">
+                </a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sparkmediaiut/" aria-label="Instagram" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/SparkMediaIUT" aria-label="Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/spark-media-undefined-1170493a6" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section footer-logo-section">
+                <a href="index.html" class="spark-logo-footer">
+                    <img src="image/logo2.png" alt="Spark Media" class="footer-logo-spark">
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Spark Media - Tous droits réservés - Projet fictif à but pédagogique</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        window.addEventListener('load', () => document.body.classList.remove('preload'));
+    </script>
+</body>
+</html>

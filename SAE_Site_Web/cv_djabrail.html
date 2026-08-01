@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CV de Djabrail Moustaev - Spark Media">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV Djabrail MOUSTAEV - Spark Media</title>
+</head>
+<body>
+    <header class="navbar">
+        <div class="header-flex">
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="logo-area-left">
+                <a href="index.html" class="logo-container">
+                    <img src="image/logo2.png" alt="Spark Media" class="logo">
+                    <span class="logo-text">Spark Media</span>
+                </a>
+            </div>
+            
+            <nav class="nav-menu">
+                <a href="index.html">Accueil</a>
+                <a href="a_propos.html">Équipe</a>
+                <a href="service.html">Services</a>
+                <a href="offres.html">Offres</a>
+                <a href="contact.html">Contact</a>
+                <a href="recrutement.html">Recrutement</a>
+            </nav>
+            
+            <div class="nav-right">
+                <div class="search-container">
+                    <form class="search-box" onsubmit="return false;">
+                        <input type="search" class="search-input" placeholder="Rechercher..." name="q" aria-label="Rechercher" autocomplete="off">
+                        <button type="button" class="search-btn" aria-label="Lancer la recherche">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="search-results"></div>
+                </div>
+                
+                <button id="eco-toggle" class="btn-eco" title="Mode Éco-responsable">
+                    <i class="fas fa-moon"></i> <span>Night Mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="side-menu-overlay"></div>
+    <aside class="side-menu">
+        <button id="eco-toggle-mobile" class="btn-eco" title="Mode Éco-responsable">
+            <i class="fas fa-moon"></i> <span>Night Mode</span>
+        </button>
+        
+        <nav class="nav-menu">
+            <a href="index.html">
+                <i class="fas fa-home"></i> Accueil
+            </a>
+            <a href="a_propos.html">
+                <i class="fas fa-users"></i> Équipe
+            </a>
+            <a href="service.html">
+                <i class="fas fa-cogs"></i> Services
+            </a>
+            <a href="offres.html">
+                <i class="fas fa-tags"></i> Offres
+            </a>
+            <a href="contact.html">
+                <i class="fas fa-envelope"></i> Contact
+            </a>
+            <a href="recrutement.html">
+                <i class="fas fa-briefcase"></i> Recrutement
+            </a>
+        </nav>
+    </aside>
+
+    <main class="container">
+        <div class="cv-action-buttons no-print">
+            <a href="a_propos.html" class="btn-back-cv">
+                <i class="fas fa-arrow-left"></i> Retour à l'équipe
+            </a>
+            <button onclick="window.print()" class="btn-print-cv">
+                <i class="fas fa-print"></i> Imprimer en PDF
+            </button>
+        </div>
+
+        <div class="cv-container">
+            <aside class="cv-sidebar">
+                <div class="cv-photo">
+                    <i class="fas fa-user-circle"></i>
+                </div>
+                
+                <h3><i class="fas fa-address-card"></i> Contact</h3>
+                <p><i class="fas fa-phone"></i> 07 86 88 98 59</p>
+                <p><i class="fas fa-envelope"></i> djabrailiphone@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> 1 avenue Molière<br>77130 Montereau-Fault-Yonne</p>
+                
+                <h3><i class="fas fa-language"></i> Langues</h3>
+                <p><strong>Français :</strong> Courant</p>
+                <p><strong>Russe :</strong> Courant</p>
+                <p><strong>Anglais :</strong> Bon niveau</p>
+                <p><strong>Espagnol :</strong> Intermédiaire</p>
+                
+                <h3><i class="fas fa-cogs"></i> Compétences</h3>
+                <p>Programmation :</p>
+                <p>• Maîtrise du C (C89)</p>
+                <p>• Maîtrise du C#</p>
+                <p>• Maîtrise du Python 3</p>
+                <p>Developpement :</p>
+                <p>• HTML5 / CSS3</p>
+                <p>Base de données :</p>
+                <p>• Manipulation et modélisation de données avec SQL (89 et 92)</p>
+                <p>Autre :</p>
+                
+                <h3><i class="fas fa-gamepad"></i> Centres d'intérêt</h3>
+                <p>• Volleyball (en temps libre)</p>
+                <p>• Sports de combat (2 and de pratique)</p>
+                <p>• Jeux vidéo Unity</p>
+            </aside>
+            
+            <section class="cv-main">
+                <header class="cv-header">
+                    <h1>Djabrail MOUSTAEV</h1>
+                    <p class="cv-title">ÉTUDIANT EN BUT 1 INFORMATIQUE</p>
+                </header>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-user"></i> Profil</h2>
+                    <p>Étudiant passionné par la création de jeux vidéo sur Unity et autodidacte en C#. Développement de bots Discord en Python. Fort intérêt pour le développement web full-stack et la gestion de projets informatiques.</p>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-graduation-cap"></i> Formation</h2>
+                    <div class="cv-item">
+                        <span class="cv-date">2025 - 2026</span>
+                        <strong>BUT Informatique</strong> - IUT de Sénart-Fontainebleau<br>
+                        Parcours Réalisation d'applications
+                    </div>
+                    <div class="cv-item">
+                        <span class="cv-date">2025</span>
+                        <strong>Baccalauréat Général</strong> - Mention Bien<br>
+                        Spécialités : Mathématiques et NSI
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-project-diagram"></i> Projets</h2>
+                    <div class="cv-item">
+                        <strong>Jeu de Taquin en C :</strong> Développement en binôme avec interface console et sauvegarde.
+                        <p>• la mise en pratique des connaissances en programmation en langages C</p>
+                        <p>• Le travail en équipe</p>
+                    </div>
+                    <div class="cv-item">
+                        <strong>Autodidacte en programmation C#</strong> Depuis le collège, passionné par la création de jeux vidéo sur Unity                    </div>
+                    <div class="cv-item">
+                        <strong>Bots Discord en Python :</strong> Création de bots pour automatiser des tâches sur des serveurs Discord.
+                    </div>
+                    <div class="cv-item">
+                        <strong>Intérêt pour les langues étrangères,</strong> notamment l'espagnol que je continue d'apprendre.
+                    </div>
+                </div>
+                
+                <div class="cv-section">
+                    <h2><i class="fas fa-star"></i> Qualités</h2>
+                    <p>Autonome • Créatif • Rigoureux • Travail en équipe • Adaptation • Curiosité technique</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <a href="#" class="scroll-top no-print">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-section">
+                <h3>Plan du site</h3>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Accueil</a></li>
+                    <li><a href="a_propos.html"><i class="fas fa-users"></i> Équipe</a></li>
+                    <li><a href="service.html"><i class="fas fa-cogs"></i> Services</a></li>
+                    <li><a href="offres.html"><i class="fas fa-tags"></i> Offres</a></li>
+                    <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li><a href="recrutement.html"><i class="fas fa-briefcase"></i> Recrutement</a></li>
+                    <li><a href="mentionlegale.html"><i class="fas fa-gavel"></i> Mentions légales</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section footer-sae">
+                <h4>Projet SAE</h4>
+                <p><strong>Créé par :</strong> D. Moustaev, M. Ouissi, S. Talbi</p>
+                <p><strong>Date :</strong> Janvier 2026</p>
+                <p><strong>Formation :</strong> BUT Informatique - 1ère année</p>
+                <p><strong>IUT :</strong> Sénart-Fontainebleau</p>
+                
+                <a href="https://www.iutsf.u-pec.fr/" target="_blank" rel="noopener noreferrer" class="logo-iut-footer">
+                    <img src="image/logo_iut.png" alt="Logo IUT Sénart-Fontainebleau" class="footer-logo-iut">
+                </a>
+            </div>
+
+            <div class="footer-section">
+                <h4>Suivez-nous</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/sparkmediaiut/" aria-label="Instagram" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/SparkMediaIUT" aria-label="Twitter" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="www.linkedin.com/in/spark-media-undefined-1170493a6" aria-label="LinkedIn" class="social-link" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-section footer-logo-section">
+                <a href="index.html" class="spark-logo-footer">
+                    <img src="image/logo2.png" alt="Spark Media" class="footer-logo-spark">
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Spark Media - Tous droits réservés - Projet fictif à but pédagogique</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
